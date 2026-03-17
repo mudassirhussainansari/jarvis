@@ -10,4 +10,18 @@ def speak(text):
     engine.runAndWait()
 
 if __name__ == "__main__":
-    speak("Hello I am Jarvis")
+    speak("Initializing Jarvis........")
+    
+    # while True:
+    #     r = sr.Recognizer()
+    #     with sr.Microphone() as source:
+    #         print("Listening....")
+    #         audio = r.listen(source)
+        
+    #     try:
+    #         command = r.recognize_sphinx(audio)
+    #         print(command)
+    #     except sr.UnknownValueError:
+    #         print("sphinx could not understand audio")
+    #     except sr.RequestError as e:
+    #         print("Sphinx error; {0}".format(e))
